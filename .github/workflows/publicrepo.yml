@@ -3,6 +3,6 @@ on: [public]
 jobs:
   job-1:
     runs-on: ubuntu-latest
-	steps:
-	- name: Repo set to public
-	uses:./.github/workflows/publicrepo.yml
+steps:
+- name: Repo set to public
+uses:./.github/workflows/publicrepo.yml
