@@ -1,6 +1,2 @@
 name: Public Repo Set # This workflow is triggered when a repo is set to public. 
 on: public
-jobs:
-public-alert:
-name: Public Alert
-runs-on: ubuntu-latest
