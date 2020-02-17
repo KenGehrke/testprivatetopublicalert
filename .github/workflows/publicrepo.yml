@@ -1,5 +1,8 @@
 name: Public Repo Set # This workflow is triggered when a repo is set to public. 
 on: [public]
 jobs:
-  scheduler:
+  job-1:
     runs-on: ubuntu-latest
+	steps:
+	- name: Repo set to public
+	uses:./.github/workflows/publicrepo.yml
