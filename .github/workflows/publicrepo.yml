@@ -3,8 +3,8 @@ name: Public Repo Set
 on: [public]
 runs-on: ubuntu-latest
 jobs
-	job-1:
-		name: Public
-		runs-on: ubuntu-latest
-		steps:
-		-	uses: ./.github/workflows/publicrepo.yml
+jobone:
+name: Public
+runs-on: ubuntu-latest
+steps:
+- uses: ./.github/workflows/publicrepo.yml
